@@ -24,7 +24,6 @@ Make sure Python is installed (preferably 3.10 or 3.11). Then:
 git clone https://github.com/yourusername/breast-cancer-prediction-app.git
 cd breast-cancer-prediction-app
 
-# (Optional) create a virtual environment
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 
@@ -34,7 +33,7 @@ pip install -r requirements.txt
 # Run the app
 streamlit run app.py
 
-Features
+
 Built-in EDA visualization
 Model evaluation metrics
 Interactive prediction form

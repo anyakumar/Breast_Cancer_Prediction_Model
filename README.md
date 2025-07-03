@@ -1,18 +1,6 @@
 # Breast_Cancer_Prediction_Model
 A clean and functional breast cancer prediction app built using Streamlit and machine learning. It supports both Logistic Regression and Random Forest models to classify tumors as benign or malignant based on diagnostic features. The project is organized for readability and future updates.
 
-Project Structure
-breast-cancer-prediction-app/
-│
-├── app.py                          # Streamlit web app
-├── data/
-│   └── Cancer_Data.csv            # Dataset used for training and prediction
-├── notebook/
-│   └── Breast_Cancer_Prediction_test.ipynb  # Jupyter notebook (EDA + model building)
-├── model/                         # (Optional) Folder for saved models
-├── requirements.txt              # Python dependencies
-
-
 
 ---
 
@@ -34,9 +22,13 @@ pip install -r requirements.txt
 # Run the app
 streamlit run app.py
 
-## Features
-Built-in EDA visualization
-Model evaluation metrics
-Interactive prediction form
-Toggle between Logistic Regression and Random Forest
-Organized for clarity and future updates
+---
+## ✨ Features
+
+- 🔍 **Live Tumor Prediction** using logistic regression and random forest
+- 📊 **EDA Visualizations** with Seaborn and Matplotlib
+- 👤 **User Inputs** for custom prediction
+- 🖥️ Clean Streamlit Interface with color-themed UI
+- 🚀 Ready for future updates and model improvements
+
+---
